@@ -79,6 +79,10 @@ app.on('ready', async () => {
     //   console.error('Vue Devtools failed to install:', e.toString())
     // }
 
+    if (process.env.NODE_ENV !== 'production') {
+      // require('vue-devtools').install()
+      BrowserWindow.addDevToolsExtension('node_modules/vue-devtools/vender')
+    }
   }
   createWindow()
 })

@@ -65,7 +65,7 @@
                 drawer: false,
                 items: [
                     { title: 'Menu', url: '/menu' },
-                    { title: 'Profile', url: '/about' },
+                    { title: 'Profile', url: '/profile' },
                     { title: 'Sign In', url: '/sign-in' },
                     { title: 'Join', url: '/join' }
                 ]

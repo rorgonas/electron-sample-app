@@ -48,7 +48,7 @@
             </div>
             <div v-else>
                 <v-btn text to="/about">PROFILE</v-btn>
-                <v-btn outline color="white" @click="logout" data-cy="logout"
+                <v-btn outlined color="white" @click="logout" data-cy="logout"
                 >Logout</v-btn
                 >
             </div>

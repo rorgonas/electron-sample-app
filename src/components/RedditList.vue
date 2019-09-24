@@ -1,5 +1,5 @@
 <template>
-    <div class="about">
+    <div class="reddit-list">
         <v-card>
             <v-list>
                 <v-subheader>REPORTS</v-subheader>
@@ -25,7 +25,7 @@
     const axios = window.axios;
 
     export default {
-        name: 'About',
+        name: 'RedditList',
         props: {
             msg: String
         },

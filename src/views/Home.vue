@@ -1,13 +1,13 @@
 <template>
-  <HelloWorld />
+  <RedditList />
 </template>
 
 <script>
-import HelloWorld from '../components/HelloWorld';
+import RedditList from '../components/RedditList';
 
 export default {
   components: {
-    HelloWorld,
+    RedditList,
   },
 };
 </script>

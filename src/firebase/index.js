@@ -1,14 +1,15 @@
 import firebase from "firebase";
+import config from './config'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDjt9XdPGFpdMYCpp-DV42qD82u6DdjFIA",
-    authDomain: "electron-sample-app.firebaseapp.com",
-    databaseURL: "https://electron-sample-app.firebaseio.com",
-    projectId: "electron-sample-app",
-    storageBucket: "",
-    messagingSenderId: "791745761628",
-    appId: "1:791745761628:web:fe0a844d0954e22b98b199"
+    apiKey: config.API_KEY,
+    authDomain: config.AUTH_DOMAIN,
+    databaseURL: config.DATABASE_URL,
+    projectId: config.PROJECT_ID,
+    storageBucket: config.STORAGE_BUCKET,
+    messagingSenderId: config.MESSAGING_SENDER_ID,
+    appId: config.APP_ID
 };
 
 // Initialize Firebase

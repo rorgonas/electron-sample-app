@@ -1,18 +1,12 @@
 <template>
-  <div class="about">
-
-  </div>
+  <ImagePreview />
 </template>
 
 <script>
+  import ImagePreview from '../components/ImagePreview'
   export default {
-    name: 'About',
-    props: {
-      msg: String
-    }
+   components: {
+     ImagePreview
+   }
   }
 </script>
-
-<style scoped>
-
-</style>
